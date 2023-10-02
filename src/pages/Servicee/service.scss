@@ -1,0 +1,41 @@
+.service {
+  margin-top: 160px;
+
+  &__wrapper {
+    display: flex;
+    gap: 147px;
+    .all__card {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .service__card {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .first {
+          display: flex;
+          align-items: center;
+          gap: 24px;
+          p {
+            color: #333;
+            font-family: Poppins-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+          .service__dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 80px;
+            background: #333;
+          }
+        }
+      }
+    }
+  }
+}
