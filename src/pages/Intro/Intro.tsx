@@ -35,6 +35,8 @@ const Intro: FC = () => {
             autoPlay={true}
             loop={true}
             muted={true}
+            controls
+      
           >
             <source
               src="https://cms.jetour-ru.com/file/video/1672814240_dashing_pc.mp4"
